@@ -1,0 +1,47 @@
+h1{
+    font-weight: 600;
+    color: black;
+}
+.text{
+    color: red;
+    background-color: rgb(245, 243, 243);
+    font-size: 24;
+}
+.center{
+    text-align: center;
+    border: 3px solid green;
+    padding: 20px;
+}
+.example{
+    padding: 5px;
+    background: rgb(238, 235, 235);
+    font-weight: 100;
+}
+.nau{
+    color: brown;
+    font-size: 18px;
+}
+.red{
+    color: red;
+    font-size: 18px;
+    display: inline-block    
+
+}
+.blue{
+    color: rgb(7, 7, 192);
+    font-size: 18px;
+}
+.high{
+    padding: 10px;
+    border-left: 7px solid green;
+}
+.try{
+    background-color: rgb(17, 209, 17);
+    padding: 8px 18px;
+    color: white;
+    border: none;
+}           
+.white{
+    background-color: rgb(245, 243, 243);
+    padding: 12px;
+}

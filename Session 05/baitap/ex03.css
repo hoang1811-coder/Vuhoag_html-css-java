@@ -1,0 +1,19 @@
+div{
+    background-color: rgb(204, 202, 202);
+}
+h1{
+    text-align: center;
+}
+.blue{
+    background-color: rgb(74, 74, 247);
+    color: white;
+}
+.white{
+    background-color: white;
+}
+table{
+        width: 100%;
+}
+.content{
+    text-align: center;
+}
