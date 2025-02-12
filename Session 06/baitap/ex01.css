@@ -1,0 +1,47 @@
+.title {
+    font-size: 30px;
+}
+
+.header {
+    background-color: rgb(72, 72, 255);
+    text-align: center;
+    color: white;
+}
+
+.highlight {
+    background-color: rgb(72, 72, 255);
+    color: white;
+    padding: 7px;
+    border: 0px;
+}
+
+.profile {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile-description {
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.footer-container {
+    background-color: rgb(238, 237, 237);
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer-text {
+    margin: 0px;
+}
+
+.profile-table {
+    margin: auto;
+}

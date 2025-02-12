@@ -1,0 +1,52 @@
+.nameBackground {
+    height: 110px;
+    width: 100%;
+    background-color: rgb(63, 233, 63);
+    text-align: center;
+    color: white;
+}
+
+.endBackground {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(47, 47, 47);
+    text-align: center;
+    color: white;
+}
+
+.nameButton {
+    background-color: rgb(63, 233, 63);
+    border: 0px;
+    color: rgb(42, 42, 235);
+}
+
+.removeMargin {
+    margin: 0;
+}
+
+.backgrounCategory {
+    margin: 20px;
+    border: 1px solid rgb(193, 193, 193);
+    background-color: rgb(233, 233, 233);
+    width: 300px;
+    height: 600px;
+}
+.backgrounCategory ul li a {
+    color: rgb(74, 74, 231);
+}
+
+.baiViet1 {
+    border-bottom: 1px solid rgb(142, 142, 142);
+}
+
+.opa {
+    opacity: 0.8;
+}
+
+.fixWid {
+    width: 100%;
+}
+
+.fixP {
+    line-height: 60px;
+}
