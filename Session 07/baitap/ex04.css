@@ -1,0 +1,30 @@
+.hearder {
+    border-left: 7px solid rgb(255, 97, 22);
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    font-size: 33px;
+    font-weight: bolder;
+}
+img{
+    width: 650px;
+}
+.content1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+br {
+    height: 1px;
+    color: gray;
+}
+.content2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.content3{
+    font-size: 45px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    position: absolute;
+    top: 650px;
+    left: 60px;
+}

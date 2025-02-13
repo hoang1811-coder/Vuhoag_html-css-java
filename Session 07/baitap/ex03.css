@@ -1,0 +1,28 @@
+
+.highlight{
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+img{
+    height: 70px;
+    width: 70px;
+}
+.picture{
+    width: 700px;
+    height: 450px;
+}
+.text{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.musik{
+    opacity: 0.8;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.content{
+    font-size: 20px;
+}

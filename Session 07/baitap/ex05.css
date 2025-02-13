@@ -1,0 +1,60 @@
+
+.content1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    top: 28px;
+    left: 180px;
+}
+.div1{
+    width: 500px;
+    height: 100px;
+    background-color: #ED1A35;
+    width: 500px;
+    font-size: 35px;
+    border-radius: 15px 15px 0px 0px;
+    position: absolute;
+}
+.picture{
+    position: absolute;
+    top: -20px;
+    left: 430px;
+}
+.container{
+    width: 500px;
+    height: 100px;
+    background-color: #FFFFFF;
+    font-size: 24px;
+    text-align: center;
+    
+    
+}
+.content2{
+    font-weight: 30px;
+}
+.text{
+    color: #FF8C00;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+.dang_ky_button {
+    height: 70px;
+    width: 400px;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(191, 20, 44);
+    border-radius: 30px;
+    border: 0;
+    font-weight: bolder;
+}
+
+.chi_tiet_button {
+    height: 60px;
+    width: 250px;
+    font-size: 30px;
+    color: rgb(191, 20, 44);
+    background-color: white;
+    border-radius: 30px;
+    font-weight: bolder;
+    border: 2px solid rgb(191, 20, 44);
+}
