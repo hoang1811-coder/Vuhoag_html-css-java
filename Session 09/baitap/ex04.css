@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    color: white;
+    margin-left: 15px;
+}
+.container .hearder{
+    background-color: #3498DB;
+    height: 40px;
+    width: 85%;
+    margin-top: 20px;
+    display: flex;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    height: 300px;
+    gap: 10px;
+    margin-top: 15px;
+}
+.siderba{
+    background-color: #2ECC71;
+    flex: 1;
+}
+.content{
+    background-color: #E74C3C ;
+    flex: 3;
+}
+.footer{
+    background-color: #9B59B6;
+    width: 85%;
+    height: 30px;
+    margin-top: 15px;
+}

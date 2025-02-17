@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text{
+    font-size: 22px;
+    font-weight: bolder;  
+    position: relative;
+    left: 20px;
+}
+.highlight{
+    font-size: 17px;
+    position: relative;
+    left: 20px;
+}
+.baiviet{
+    position: relative;
+    left: 20px;
+}
+.read{
+    color: #5ea2f5;
+    font-size: 17px;
+    position: relative;
+    left: 20px;
+}
+.header .link{
+    color: white;
+    text-decoration: none;
+}
+.div1{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 1200px;
+    align-items: center;
+}
+
+.header{
+    width: 100%;
+    height: 65px;
+    background-color: #333333;
+    display: flex;
+    color: white;
+}
+.myblogs{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 300px;
+}
+.content1{
+    background-color: #F4F4F4;
+}
+.content2{
+    background-color: #F9F9F9;
+}
+.main{
+    margin-left: 300px;
+    width: 38%;
+}
+.footer{
+    background-color: #333333;
+    height: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
