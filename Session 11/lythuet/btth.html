@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            height: 50px;
+            background-color: brown;
+            line-height: 50px;
+        }
+        .header input{
+            width: 80%;
+            padding: 5px;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            background-color: white;
+        }
+        .header button{
+            width: 290px;
+            height: 28px;
+            background-color: rgb(75, 75, 129);
+            border: none;
+            border-radius: 5px;
+            color: wheat;
+        }
+        @media screen and (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        background-color: yellow;
+        height: 80px;
+        justify-content: center;
+    }
+    
+    .header input{
+        width: 100%;
+        margin: 0;
+        padding: 0px;
+        
+    }
+    .header button {
+        width: 100%; /* Chiếm toàn bộ chiều rộng */
+        text-align: center;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <input type="text">
+        <button>Tìm Kiếm</button>
+    </div>
+    <div>
+        
+        </div>
+    <!-- 
+    Khi trên màn hình điện thoại thì trên điện thoại thì mỗi cái một hàng và mỗi ô rộng bằng nhau
+     -->
+</body>
+</html>
