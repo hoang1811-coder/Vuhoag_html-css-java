@@ -1,0 +1,19 @@
+select.form-select {
+    background-color: orange !important;
+    color: white !important;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: none;
+}
+select.form-select option {
+    background-color: orange;
+    color: white;
+}
+select.form-select option:checked {
+    background-color: blue !important;
+    color: white !important;
+}
+select.form-select:focus {
+    box-shadow: none;
+    border: 2px solid blue;
+}

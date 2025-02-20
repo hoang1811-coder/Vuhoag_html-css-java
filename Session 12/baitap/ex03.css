@@ -1,0 +1,25 @@
+.hr{
+    width: 20%;
+}
+.ip{
+    border-radius: 5px;
+}
+.main {
+    display: flex;
+    align-items: center;
+    width: 640px;
+    border-bottom: 1px solid silver;
+    padding: 10px;
+}
+
+h2 {
+    margin: 0;
+    margin-right: 300px;
+}
+
+.icon {
+    margin-left: 5px;
+    background-color: #198754;
+    width: 80px;
+    height: 30px;
+}
