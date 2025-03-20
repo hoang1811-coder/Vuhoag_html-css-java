@@ -1,0 +1,25 @@
+.container {
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid gray;
+}
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
