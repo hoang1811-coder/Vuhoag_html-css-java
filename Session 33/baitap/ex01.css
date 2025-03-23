@@ -1,0 +1,16 @@
+.password-container {
+    width: 300px;
+    margin: 100px auto;
+    position: relative;
+}
+input[type="password"], input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+}
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}

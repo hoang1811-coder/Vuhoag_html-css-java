@@ -1,0 +1,22 @@
+.container {
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    resize: vertical;
+}
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+p {
+    font-size: 18px;
+    margin-top: 20px;
+}

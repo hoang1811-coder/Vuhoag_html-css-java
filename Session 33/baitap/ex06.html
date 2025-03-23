@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ex06.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ứng dụng Thời tiết</h1>
+        <input type="text" id="cityInput" placeholder="Nhập tên thành phố">
+        <button id="searchBtn">Tìm kiếm</button>
+        <div id="weatherInfo" class="weather-info" style="display: none;">
+            <h2 id="cityName"></h2>
+            <p id="description"></p>
+            <p id="temperature"></p>
+            <p id="humidity"></p>
+            <p id="windSpeed"></p>
+        </div>
+        <p id="errorMsg" style="color: red; display: none;">Thành phố không tồn tại!</p>
+    </div>
+    <script src="./ex06.js"></script>
+</body>
+</html>
