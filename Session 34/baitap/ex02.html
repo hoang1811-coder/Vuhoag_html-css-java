@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ex02.css">
+</head>
+<body>
+    <h1>Quản lý đầu việc</h1>
+
+    <input type="text" id="content" placeholder="Nội dung">
+    <input type="date" id="dueDate">
+    <select id="status">
+        <option value="Pending">Pending</option>
+        <option value="In Progress">In Progress</option>
+        <option value="Completed">Completed</option>
+    </select>
+    <input type="text" id="assignedTo" placeholder="Người thực hiện">
+    <button id="submit">Thêm</button>
+
+    <table id="courseTable">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nội dung</th>
+                <th>Ngày hết hạn</th>
+                <th>Trạng thái</th>
+                <th>Người thực hiện</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="./ex02.js"></script>
+</body>
+</html>
