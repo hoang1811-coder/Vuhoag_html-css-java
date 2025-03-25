@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ex04.css">
+</head>
+<body>
+    <h1>Danh sách nhân viên Rikkei</h1>
+
+    <input type="text" id="name" placeholder="Tên nhân viên">
+    <input type="text" id="position" placeholder="Chức vụ">
+    <button id="addEmployeeBtn">Thêm nhân viên</button>
+
+    <table id="employeeTable">
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Tên</th>
+                <th>Chức vụ</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <div class="pagination" id="pagination">
+        <button id="prevBtn">Previous</button>
+        <div id="pageNumbers"></div>
+        <button id="nextBtn">Next</button>
+    </div>
+    <script src="./ex04.js"></script>
+</body>
+</html>

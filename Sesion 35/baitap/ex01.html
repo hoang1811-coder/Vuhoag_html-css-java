@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.input {
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    padding-bottom: 10px;
+}
+.item {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button {
+    margin-right: 10px;
+}
+.mess {
+    margin-left: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="header">To-Do List K24</div>
+    <div class="input">
+        <input type="text" placeholder="Nhap cong viec" id="input">
+        <button onclick="addItem()">Them</button>
+    </div>
+    <div id="list">
+
+    </div>
+    <script>
+        let list = [];
+if (localStorage.list) {
+    list = JSON.parse(localStorage.list); 
+}
+
+function render() {
+    let message = "";
+    for (let i = 0; i < list.length; i++) {
+        message += `
+            <div class="item">
+                <p class="mess">${list[i].message}</p>
+                <div class="button">
+                    <button onclick="editItem(${list[i].id})">Sửa</button>
+                    <button onclick="deleteItem(${list[i].id})">Xóa</button>
+                </div>
+            </div>
+        `;
+    }
+    document.getElementById("list").innerHTML = message;
+}
+
+function addItem() {
+    let input = document.getElementById("input").value;
+    if (!input) return; 
+
+    let id = list.length === 0 ? 1 : list[list.length - 1].id + 1;
+    let newItem = { id, message: input };
+    list.push(newItem);
+    localStorage.list = JSON.stringify(list);  
+
+    document.getElementById("input").value = ""; 
+    render();
+}
+
+function editItem(id) {
+    let newMessage = prompt("Chinh sua cong viec:");
+    if (newMessage) {
+        let item = list.find(item => item.id === id);
+        item.message = newMessage;
+        localStorage.list = JSON.stringify(list); 
+        render(); 
+    }
+}
+
+function deleteItem(id) {
+    list = list.filter(item => item.id !== id);
+    localStorage.list = JSON.stringify(list); 
+    render(); 
+}
+
+render();
+    </script>
+</body>
+</html>
